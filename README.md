@@ -1,6 +1,6 @@
 # Task Tracker CLI
-
-CLI tool -> manage tasks. Pure Node.js. No external libs. Data -> local JSON file.
+* click https://roadmap.sh/projects/task-tracker to project description.
+* CLI tool -> manage tasks. Pure Node.js. No external libs. Data -> local JSON file.
 
 ## Features
 
