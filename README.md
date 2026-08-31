@@ -9,6 +9,7 @@ CLI tool -> manage tasks. Pure Node.js. No external libs. Data -> local JSON fil
 * List tasks (all, `done`, `todo`, `in-progress`).
 * Auto-create JSON DB.
 * Track `createdAt`, `updatedAt`.
+* Commands `add <description>`, `update <id>`, `delete <id>`, `list`, `list-<status>`, `mark-<status> <id>`
 
 ## Setup
 
