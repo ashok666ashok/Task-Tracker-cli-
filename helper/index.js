@@ -33,7 +33,7 @@ export function listHelp(){
         {command:"list", description:"[to list all tasks]"},
         {command:"list-done", description:"[to list done tasks]"},
         {command:"list-done", description:"[to list todo tasks]"},
-        {command:"list-in-progress", description:"[to list in-progress tasks]"},
+        {command:"list-in-progress", description:"[to list in-progress tasks]"}
     ]
     commands.forEach((ele)=>{
         console.log(`${ele.command} ${ele.description}`)
