@@ -25,14 +25,15 @@ export function saveTask(tasks){
 
 export function listHelp(){
     const commands = [
-        {command:"add",description:"<descrition of tasks>"},
-        {command:"update", description:"<ID of task you want to update>"},
-        {command:"delete", description:"<ID of task you want to delete>"},
-        {command:"mark-in-progress", description:"<ID of task you want to mark-in-progress>"},
-        {command:"mark-done", description:"<ID of task you want to mark-done>"},
+        {command:"add",description:"<Description>"},
+        {command:"update", description:"<ID> <Description>"},
+        {command:"delete", description:"<ID>"},
+        {command:"mark-in-progress", description:"<ID>"},
+        {command:"mark-done", description:"<ID>"},
         {command:"list", description:"to list all task"},
-        {command:"list-done", description:"to list done task"},
-        {command:"list-in-progress", description:"to list in-progress task"},
+        {command:"list-done", description:"[to list done tasks]"},
+        {command:"list-done", description:"[to list todo tasks]"},
+        {command:"list-in-progress", description:"[to list in-progress tasks]"},
     ]
     commands.forEach((ele)=>{
         console.log(`${ele.command} ${ele.description}`)
