@@ -30,7 +30,7 @@ export function listHelp(){
         {command:"delete", description:"<ID>"},
         {command:"mark-in-progress", description:"<ID>"},
         {command:"mark-done", description:"<ID>"},
-        {command:"list", description:"to list all task"},
+        {command:"list", description:"[to list all tasks]"},
         {command:"list-done", description:"[to list done tasks]"},
         {command:"list-done", description:"[to list todo tasks]"},
         {command:"list-in-progress", description:"[to list in-progress tasks]"},
